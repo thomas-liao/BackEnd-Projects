@@ -1,0 +1,13 @@
+# yml is a language specifically used for writting configuration.. # for annotation
+# appoint the external resources configuration (less change on code, let configuration do the changing)
+# yml: layered..
+
+# or you can also use application.properties, which is not layered
+
+# spring boot: define the starter port of application (very new bi). you can change your port very easily
+# without having to, like, reboot... and it is good for automation too
+server:
+  port: 9000
+spring:
+  application:
+    name: running-location-service

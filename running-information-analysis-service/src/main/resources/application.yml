@@ -1,0 +1,9 @@
+# for MySQL server, default port: -"3306:3306"
+# for mongoDB server, default port: -"27017 : 27017"
+
+runningInformationDatabase:
+  image:mysql
+  ports:
+  - "3306:3306"
+  environments:
+  -MYSQL_ROOT_PASSWORD=root
